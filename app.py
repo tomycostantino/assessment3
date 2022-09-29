@@ -2,8 +2,7 @@ import tkinter as tk    #GUI library
 from tkinter import filedialog  #Lets me open the audiofile
 from tkinter import *
 import cv2 #It does the face recognition
-import numpy as np
-import io
+
 import speech_recognition as sr #It does speech recognition
 from time import sleep
 """
@@ -11,6 +10,8 @@ The app will be based all on this class
 Here is where I declare the widgets and functions my app will perform
 Inheriths from tkinter.Frame
 """
+
+
 class App(tk.Frame):
     """Constructor for class"""
     def __init__(self, master=None):
