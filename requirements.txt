@@ -1,0 +1,7 @@
+tkinter
+opencv-python~=4.6.0.66
+numpy~=1.23.3
+SpeechRecognition
+
+PyAudio~=0.2.13
+matplotlib~=3.6.3
